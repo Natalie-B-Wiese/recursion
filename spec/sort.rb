@@ -1,4 +1,4 @@
-require_relative '../lib/recursion'
+require_relative '../lib/sort'
 describe 'MergeSort' do
   context 'empty array' do
     it 'returns the empty array' do
