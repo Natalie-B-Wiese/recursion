@@ -1,4 +1,4 @@
-require_relative '../lib/recursion'
+require_relative '../lib/fibonacci'
 describe 'Fibbonnacci exercises' do
   context 'non-recursive' do
     it 'returns an array' do
