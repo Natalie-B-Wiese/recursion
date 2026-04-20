@@ -15,6 +15,7 @@ def fibs(length)
 end
 
 def fibs_rec(length)
+  puts 'This was printed recursively'
   arr = Array.new(length)
 
   if length == 1
@@ -29,3 +30,5 @@ def fibs_rec(length)
 
   arr
 end
+
+fibs_rec(8)
